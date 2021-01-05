@@ -1,0 +1,4 @@
+#Best Solution
+DELIMETER = ","
+list_of_words = ["hello", "yes", "no", "goodbye", "last", "val"]
+print(DELIMETER.join(list_of_words))
