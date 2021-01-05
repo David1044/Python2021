@@ -1,0 +1,9 @@
+list_of_words = ["Hello", "yes","goodbye", "last"]
+to_print =""
+
+for i in range(4):
+    to_print += list_of_words[i]
+    if i !=3:
+        to_print +=","
+
+print(to_print)
